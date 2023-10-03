@@ -7,6 +7,9 @@ import App3Form from "./App3Form";
 import App4Form from "./App4Form";
 import reportWebVitals from './reportWebVitals';
 import App5Portal from "./App5Portal";
+import App6TypeHooks from "./App6TypeHooks";
+import App7Hook from "./App7Hook";
+
 
 const root = ReactDOM.createRoot(
   document.getElementById('root') as HTMLElement
@@ -37,6 +40,12 @@ root.render(
 root.render(
     <React.StrictMode>
         <App5Portal/>
+    </React.StrictMode>
+);
+
+root.render(
+    <React.StrictMode>
+        <App7Hook/>
     </React.StrictMode>
 );
 
