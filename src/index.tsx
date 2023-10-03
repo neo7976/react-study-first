@@ -4,6 +4,7 @@ import './index.css';
 import App from './App';
 import App2 from './App2';
 import App3Form from "./App3Form";
+import App4Form from "./App4Form";
 import reportWebVitals from './reportWebVitals';
 
 const root = ReactDOM.createRoot(
@@ -24,6 +25,11 @@ root.render(
 root.render(
     <React.StrictMode>
         <App3Form />
+    </React.StrictMode>
+);
+root.render(
+    <React.StrictMode>
+        <App4Form />
     </React.StrictMode>
 );
 
