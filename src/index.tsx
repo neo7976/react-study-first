@@ -3,6 +3,7 @@ import ReactDOM from 'react-dom/client';
 import './index.css';
 import App from './App';
 import App2 from './App2';
+import App3Form from "./App3Form";
 import reportWebVitals from './reportWebVitals';
 
 const root = ReactDOM.createRoot(
@@ -17,6 +18,12 @@ root.render(
 root.render(
     <React.StrictMode>
         <App2 />
+    </React.StrictMode>
+);
+
+root.render(
+    <React.StrictMode>
+        <App3Form />
     </React.StrictMode>
 );
 
