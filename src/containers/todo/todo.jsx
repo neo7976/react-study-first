@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 import { connect } from 'react-redux';
 
-import { addTast, removeTask, completeTask, changeFilter } from '../../actions/actionCreator';
+import { addTask, removeTask, completeTask, changeFilter } from '../../actions/actionCreator';
 
 import ToDoInput from '../../components/todo-input/todo-input';
 import ToDoList from '../../components/todo-list/todo-list';
@@ -71,7 +71,7 @@ class ToDo extends Component {
 export default connect(({ tasks, filters }) => ({
   tasks,
   filters,
-}), { addTast, removeTask, completeTask, changeFilter })(ToDo);
+}), { addTast: addTask, removeTask, completeTask, changeFilter })(ToDo);
 
 
 

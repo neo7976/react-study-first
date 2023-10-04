@@ -1,7 +1,7 @@
 import { ADD_TASK, REMOVE_TASK, COMPLETE_TASK, CHANGE_FILTER } from '../constants';
 import { TaskActionTypes, FilterActionType, ITask, Filter } from '../types';
 
-export const addTast = (task: ITask): TaskActionTypes => ({
+export const addTask = (task: ITask): TaskActionTypes => ({
   type: ADD_TASK,
   payload: {
     ...task
